@@ -19,10 +19,7 @@ sections:
     col_number: three
     grid_items:
       - content: |
-
           Memoization, Tabulation, and Sorting Algorithms by Example
-
-
           Why is looking at runtime not a reliable method of calculating time
           complexity?
         actions:
@@ -32,27 +29,22 @@ sections:
         title: A Quick Guide To Big O
         image: images/my-back.png
         title_url: >-
-
           https://medium.com/star-gazers/a-quick-guide-to-big-o-notation-memoization-tabulation-and-sorting-algorithms-by-example-803ff193c522
       - content: |
-
           *Python has a built in help function that let's you see a description
-          of the source code without having to navigate to it… “-SickNasty …
-          Autor Unknown”  .*
+          of the source code without having to navigate to it… "-SickNasty …
+          Autor Unknown"  .*
         actions:
           - label: View Posts
             url: >-
-
               https://levelup.gitconnected.com/python-study-guide-for-a-native-javascript-developer-5cfdf3d2bdfb
             style: link
         image_alt: python
         title: Python Guide
         title_url: >-
-
           https://levelup.gitconnected.com/python-study-guide-for-a-native-javascript-developer-5cfdf3d2bdfb
         image: images/smiling-maple.png
       - content: |
-
           <div id="search"></div> <div id="search" />
         actions:
           - label: Learn More
@@ -64,7 +56,6 @@ sections:
       - title_url: 'https://bryanguner.medium.com/introductory-react-part-2-cda01615a186'
         image_alt: img of dtw
         content: |
-
           As I learn to build web applications in React I will blog about it in
           this series in an attempt to capture the questions that a complete
           beginner might encounter that a more seasoned developer would take for
@@ -82,7 +73,6 @@ sections:
         title: Scope & Closure
       - image_alt: Every idea needs a medium
         content: |
-
           PostgreSQL Cheat Sheet, Everything You Need to Get Started With VSCode
           + Extensions & Resources, Super Simple Intro To HTML,  Understanding
           Git... etc....
@@ -99,15 +89,8 @@ sections:
         title_url: angolia
         image_alt: angolia
         content: |
-
           ## Full Text Search
-
-
-
           [Full Text Search](https://www.algolia.com/)
-
-
-
           ## &#xA;
         actions: []
         type: grid_item
@@ -116,15 +99,9 @@ sections:
         title_url: neural networks
         image_alt: neural networks
         content: >+
-
           Artificial neural networks, usually simply called neural networks, are
-
           computing systems vaguely inspired by the biological [neural
-
           networks](https://github.com/tensorflow/tensorflow)![](/\_static/app-assets/neural.PNG)
-
-
-
         actions: []
         type: grid_item
         image: images/neural.PNG
@@ -132,7 +109,6 @@ sections:
         title_url: jamstack
         image_alt: jamstack
         content: |
-
           ##### Why Jamstack Jamstack is the new standard architecture for the
           web. Using Git workflows and modern build tools, pre-rendered content
           is served to a CDN and made dynamic through APIs and serverless
@@ -165,12 +141,7 @@ sections:
         title_url: lorem-ipsum
         image_alt: lorem-ipsum
         content: |+
-
           # Break Even Nuclear Fusion Candidate
-
-
-
-
           In December, researchers at the Joint European Torus (JET) started
           conducting fusion experiments with tritium — a rare and radioactive
           isotope of hydrogen. The facility is a one-tenth-volume mock-up of the
@@ -178,9 +149,6 @@ sections:
           design — the world's most developed approach to fusion energy. It is
           the first time since 1997 that researchers have done experiments in a
           tokamak with any significant amount of tritium.
-
-
-
         actions: []
         type: grid_item
         image: images/iter-zoomed.PNG
@@ -204,11 +172,9 @@ sections:
             type: action
         image: images/bryan_guner_resume_2021-v4IMG.jpeg
         title_url: >-
-
           https://github.com/bgoonz/resume-cv-portfolio-samples/raw/master/2021-resume/bryan-guner-resume-2021.pdf
       - title: Showcase
         content: |
-
           ![](/\_static/app-assets/lambda-demo1.gif)My Projects!
         actions:
           - label: Learn More
@@ -220,14 +186,10 @@ sections:
     image_alt: rotating pages
     image_position: left
     content: |-
-
       <iframe class="block-content" width="100%  width="1200px!important"
       height="1000px!important"
-
-        src="https://random-static-html-deploys.netlify.app/showcase2.html"  
-
+        src="https://random-static-html-deploys.netlify.app/"
        frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-
         encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     actions: []
     type: section_content
@@ -266,14 +228,6 @@ sections:
         icon_class: dev
         new_window: false
         no_follow: false
-      - label: Collaborate
-        url: >-
-
-          https://webdevhub.jetbrains.space/oauth/auth/invite/419dd305ba717a392a02aa5b4e41e09c
-        style: primary
-        icon_class: dev
-        new_window: false
-        no_follow: false
       - label: Subscribe (Youtube)
         url: ' https://www.youtube.com/channel/UC9-rYyUMsnEBK8G8fCyrXXA?sub_confirmation=1'
         style: primary
@@ -285,7 +239,6 @@ sections:
 seo:
   title: Web-Dev-Hub
   description: |-
-
     bigO, Python, Javascript, Audio, Processing, Learning, Blog, React,
     PostgreSQL, Scope, Closure, Web Development, Embed, API, Website, Design,
     Music, Search
@@ -298,7 +251,6 @@ seo:
       keyName: property
     - name: 'og:description'
       value: |-
-
         my resource sharing and blog site ... centered mostly on web development
         and just a bit of audio production / generally nerdy things I find
         interesting.
