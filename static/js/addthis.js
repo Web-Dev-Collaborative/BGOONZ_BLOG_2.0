@@ -4617,10 +4617,9 @@ AddThis - v8.28.7 - 20201026;
                             return !0;
                         }
                     }
-                    var i =
-                            'html,head,title,base,link,meta,style,script,noscript,template,body,section,nav,article,aside,h1,h2,h3,h4,h5,h6,header,footer,address,main,p,hr,pre,blockquote,ol,ul,li,dl,dt,dd,figure,figcaption,div,a,em,strong,small,s,cite,q,dfn,abbr,data,time,code,var,samp,kbd,sub,sup,i,b,u,mark,ruby,rt,rp,bdi,bdo,span,br,wbr,ins,del,img,iframe,embed,object,param,video,audio,source,track,canvas,map,area,svg,table,caption,colgroup,col,tbody,thead,tfoot,tr,td,th,form,fieldset,legend,label,input,button,select,datalist,optgroup,option,textarea,keygen,output,progress,meter,details,summary,menuitem,menu'.split(
-                                ','
-                            ),
+                    var i = 'html,head,title,base,link,meta,style,script,noscript,template,body,section,nav,article,aside,h1,h2,h3,h4,h5,h6,header,footer,address,main,p,hr,pre,blockquote,ol,ul,li,dl,dt,dd,figure,figcaption,div,a,em,strong,small,s,cite,q,dfn,abbr,data,time,code,var,samp,kbd,sub,sup,i,b,u,mark,ruby,rt,rp,bdi,bdo,span,br,wbr,ins,del,img,iframe,embed,object,param,video,audio,source,track,canvas,map,area,svg,table,caption,colgroup,col,tbody,thead,tfoot,tr,td,th,form,fieldset,legend,label,input,button,select,datalist,optgroup,option,textarea,keygen,output,progress,meter,details,summary,menuitem,menu'.split(
+                            ','
+                        ),
                         o = 'value,name,id,href,src,title,alt,target,type,role,placeholder,action,method,autocorrect,autocapitalize,required'.split(','),
                         r = e.prototype;
                     for (
@@ -9645,13 +9644,12 @@ AddThis - v8.28.7 - 20201026;
                                           );
                                       }),
                                   (v || b) &&
-                                      ((M.onkeypress = M.onkeydown =
-                                          function (e) {
-                                              if (!e) var e = window.event;
-                                              e.shiftKey && (_ate.maf.shift = !0),
-                                                  e.keyCode ? (_ate.maf.key = e.keyCode) : e.which && (_ate.maf.key = e.which),
-                                                  13 === _ate.maf.key ? (_ate.maf.pre = this) : (_ate.maf.pre = null);
-                                          }),
+                                      ((M.onkeypress = M.onkeydown = function (e) {
+                                          if (!e) var e = window.event;
+                                          e.shiftKey && (_ate.maf.shift = !0),
+                                              e.keyCode ? (_ate.maf.key = e.keyCode) : e.which && (_ate.maf.key = e.which),
+                                              13 === _ate.maf.key ? (_ate.maf.pre = this) : (_ate.maf.pre = null);
+                                      }),
                                       (M.onblur = function (e) {
                                           if (9 === _ate.maf.key && _ate.maf.firstCompact && !_ate.maf.shift && this.className.indexOf('compact') > -1)
                                               (_ate.maf.key = null), (_ate.maf.acm = !0), document.getElementById(_ate.maf.firstCompact).focus();
